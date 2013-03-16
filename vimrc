@@ -29,9 +29,11 @@ Bundle 'gmarik/vundle'
 
 " original repos on github
 Bundle 'Lokaltog/vim-powerline'
+Bundle 'ap/vim-css-color'
+Bundle 'jelera/vim-javascript-syntax'
 Bundle 'scrooloose/syntastic'
 let g:syntastic_check_on_open = 1
-Bundle 'ap/vim-css-color'
+let g:syntastic_javascript_checkers=['jshint']
 Bundle 'kien/ctrlp.vim'
 Bundle 'scrooloose/nerdcommenter'
 Bundle 'tsaleh/vim-matchit'
