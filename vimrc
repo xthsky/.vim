@@ -35,6 +35,7 @@ Bundle 'scrooloose/syntastic'
 let g:syntastic_check_on_open = 1
 let g:syntastic_javascript_checkers=['jshint']
 Bundle 'kien/ctrlp.vim'
+Bundle 'mileszs/ack.vim'
 Bundle 'scrooloose/nerdcommenter'
 Bundle 'tsaleh/vim-matchit'
 Bundle 'gregsexton/gitv'
