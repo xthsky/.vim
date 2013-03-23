@@ -32,8 +32,8 @@ Bundle 'Lokaltog/vim-powerline'
 Bundle 'ap/vim-css-color'
 Bundle 'jelera/vim-javascript-syntax'
 Bundle 'scrooloose/syntastic'
-let g:syntastic_check_on_open = 1
-let g:syntastic_javascript_checkers=['jshint']
+"let g:syntastic_check_on_open = 1
+"let g:syntastic_javascript_checkers=['jshint']
 Bundle 'kien/ctrlp.vim'
 Bundle 'mileszs/ack.vim'
 Bundle 'scrooloose/nerdcommenter'
