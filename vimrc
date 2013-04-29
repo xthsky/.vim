@@ -31,13 +31,17 @@ Bundle 'gmarik/vundle'
 Bundle 'Lokaltog/vim-powerline'
 Bundle 'ap/vim-css-color'
 Bundle 'jelera/vim-javascript-syntax'
+Bundle 'jnwhiteh/vim-golang'
+Bundle 'scrooloose/nerdtree'
 Bundle 'scrooloose/syntastic'
-"let g:syntastic_check_on_open = 1
-"let g:syntastic_javascript_checkers=['jshint']
+let g:syntastic_javascript_checkers=['jshint']
 Bundle 'kien/ctrlp.vim'
 Bundle 'mileszs/ack.vim'
 Bundle 'scrooloose/nerdcommenter'
 Bundle 'tsaleh/vim-matchit'
+Bundle 'maksimr/vim-jsbeautify'
+map <c-f> :call JsBeautify()<cr>
+Bundle 'majutsushi/tagbar'
 Bundle 'gregsexton/gitv'
 
 filetype plugin indent on    " required by Vundle
